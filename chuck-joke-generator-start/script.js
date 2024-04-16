@@ -16,7 +16,7 @@ function generateJoke(){
                 displayJoke.innerHTML = 'Something Went Wrong (Not Funny)';
             }
         }
-    }
+    };
 
     xhr.send();
 };
